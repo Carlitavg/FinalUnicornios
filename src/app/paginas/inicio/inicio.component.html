@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSAP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="imagen1" id="inicio">
+        <div class="opaco">
+            <header class="header">
+                <a routerLink="/inicio" class="logo">
+                    <img src="/logo2.png"/>
+                </a>
+                <nav class="nav">
+                    
+                    <a class="actual" routerLink="/inicio">Inicio</a>
+                    <a class="otro" routerLink="/cartas">Cartas</a>
+                    <a class="otro" routerLink="/inicio">Instrucciones</a>
+                    <a class="otro" routerLink="/inicio">Inicio</a>
+                    
+                </nav>
+            </header>
+            
+            <div class="contenedor-principal">
+                <div class="Text">
+                    <h2 class="Text2">Crea un ejército de unicornios. <br>
+                        Traiciona a tus amigos. <br>
+                        Ahora tus amigos son los unicornios.</h2>
+                    <div class="buttonX">
+                        Saber más
+                    </div>
+                </div>
+                <div class="unicorn">
+                    <img src="Unicornio.png" alt="">
+                </div>
+            </div>
+            
+             
+            <div class="line2">
+              <hr class="linea2">
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <footer class="footer" id="Contacto">
+        
+      <div class="footer-descrip">
+  
+          <a class="logoFooter" >
+            <a href="#inicio" (click)="scrollToSection($event, 'inicio')">
+              <img src="logo2.png"/>
+            </a>  
+            
+            <p>Unicornios Iestables <br>
+            Crea un ejército de unicornios.
+            Traiciona a tus amigos.
+            Ahora tus amigos son los unicornios.</p>
+          </a>
+          
+      </div>
+      <div class="footer-section">
+          <h3 class="text_footer">Contacto</h3>
+          <p>Teléfono: 929-242-6868</p>
+          <p>Email: csapinnovators.com</p>
+          <div class="footer-social">
+              <h3>Síguenos</h3>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><img src="red2.png" alt=""></a>
+                <a href="https://x.com/?lang=es" target="_blank"><img src="red4.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="red3.png" alt=""></a>
+                <a href="https://github.com/Carlitavg/TecWEbProyectoFinal.git" target="_blank"><img src="red1.png" alt=""></a>
+            
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-section">
+          <h3>Ubicaciones</h3>
+          <p>CSAP Games Central<br>Avenida Principal, Ciudad, Código Postal</p>
+          <p>CSAP Games Boutique<br>Calle Secundaria, Ciudad, Código Postal</p>
+      </div>
+      <div class="footer-section">
+          <h3>Horario de Apertura</h3>
+          <p>Lunes .......... 08:00 - 20:00</p>
+          <p>Martes .......... 08:00 - 20:00</p>
+          <p>Miércoles .......... 08:00 - 20:00</p>
+          <p>Jueves .......... 08:00 - 20:00</p>
+          <p>Viernes .......... 08:00 - 20:00</p>
+          <p>Sábado .......... 10:00 - 18:00</p>
+          <p>Domingo .......... 10:00 - 18:00</p>
+      </div>
+      <div class="footer-bottom">
+          <p>Copyright © 2024 Tec Web | Creado por CSAP Innovators</p>
+      </div>
+    </footer>
+
+
+    
+
+    
+  </body>
+</html>
+<router-outlet></router-outlet>

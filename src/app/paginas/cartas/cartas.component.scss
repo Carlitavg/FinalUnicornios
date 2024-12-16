@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+    ::selection {
+    background-color: #7115ea; 
+    color: #000000;
+    }
+    .imagen1{
+    width: 100%;
+    height: 800px;
+    background-image: url('/FondoCartas.png');
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .opaco{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    }
+    .nav{
+    display: flex;
+    gap: 40px;
+    padding-right: 80px;
+  
+    }
+    .otro{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    cursor: pointer;
+    }
+    .actual{
+        color: #ffe3d8;
+        text-decoration: none;
+        font-size: 19px;
+        font-family: "Zen Dots", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        cursor: pointer;
+    }
+   .otro:hover, .actual:hover{
+    color:#ffe3d8;
+    transform: scale(1.05);
+   }
+    
+    .logo img{
+      width: auto;
+      height: 33px;
+      padding-left: 80px;
+      padding-top: 10px;
+    }
+    .Text{
+    width: 50%; /* Ocupa la mitad del ancho */
+    color: white;
+    font-family: "Zen Dots", serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+    
+    }
+
+    .contenedor-principal {
+        display: flex; /* Coloca los elementos en fila */
+        justify-content: space-between; /* Distribuye el espacio entre texto e imagen */
+        align-items: center; /* Alinea verticalmente los elementos */
+        width: 90%; /* Ajusta el ancho del contenedor */
+        margin: 0 auto; /* Centra el contenedor */
+        padding-top: 150px; /* Ajusta el espacio superior */
+    }
+    
+    
+    .unicorn img {
+        width: 500px; /* Ajusta el tamaño de la imagen */
+        height: auto;
+        padding-right: 30px;
+    }
+    
+    .Text2{
+    padding-top: 10px;
+    margin: 0;
+    padding-bottom: 50px;
+    }
+  
+  .linea1 {
+    border: none;
+    height: 7px; 
+    background-color: #7115ea; 
+    margin: 10px 0; 
+    width: 120px; 
+  }
+  .linea2 {
+    border: none;
+    height: 1px; 
+    background-color: #ffe3d8; 
+    
+    width: 80%; 
+    justify-content: center;
+  }
+  .buttonX{
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffe3d8; /* Color del texto */
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid #ffe3d8; /* Borde */
+      background-color: transparent; /* Fondo transparente */
+      
+  }
+  .buttonX:hover{
+    transform: scale(1.05);
+  }
+  .line2{
+    padding-top: 30px;
+  }
+  
